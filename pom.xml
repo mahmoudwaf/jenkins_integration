@@ -25,6 +25,11 @@
           <version>3.2.0</version>
            <configuration>
               <outputDirectory>/usr/build</outputDirectory>
+              <archive>
+              <manifest>
+                    <mainClass>com.jenkins.app.App</mainClass>
+              </manifest>
+            </archive>
            </configuration>
         </plugin>
       </plugins>
